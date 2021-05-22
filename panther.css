@@ -1,0 +1,149 @@
+/* Panther styles */
+body {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; */
+  background-color: #f4f4f4;
+}
+
+.img-part {
+  background-image: url(panther-images/—Pngtree—leopards\ puma\ panther\ and\ tiger_3641370.png);
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.top-text {
+  color: black;
+  letter-spacing: 2px;
+  padding: 370px 0px 0px 0px;
+}
+
+.column-2 {
+  padding: 70px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  opacity: 2px;
+}
+
+.Rtext {
+  font-size: 30px;
+  color: black;
+}
+
+.not-correct {
+  border: 2px solid red;
+}
+
+.form-control,
+.input-group {
+  margin: 15px 0px;
+  font-weight: 500;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  font-weight: 500;
+}
+
+.btn1 {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.input-group-btn {
+}
+
+.input-group-btn:focus {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.Btext {
+  padding: 4px 0px;
+}
+
+.link {
+  color: black;
+  font-weight: 500;
+  padding: 0px 7px;
+}
+
+.link:hover {
+  color: black;
+}
+
+.bottom_text {
+  padding: 10px 0px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+#eye {
+  position: absolute;
+  padding: 2px 0px 0px 0px;
+  display: none;
+  cursor: pointer;
+}
+
+#eye-slash {
+  position: absolute;
+  padding: 2px 0px 0px 0px;
+  display: block;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  #row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .column-2 {
+    margin: 50px 0px 0px 0px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-part {
+    display: none;
+  }
+
+  .bottom_text {
+    padding: 100px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+}
